@@ -8,23 +8,23 @@ import up_arrow from "../assets/up_arrow.svg";
 const HeroSection = () => {
   return (
     <div
-      className="h-screen"
+      className="h-full"
       style={{ backgroundImage: `url(${heroImage})`, backgroundSize: "cover", backgroundPosition: "top" }}
     >
       <div className="w-full h-full  backdrop-blur-[3px] p-5">
         <Navbar />
-        <div className="flex flex-col justify-center items-center space-y-5 mt-20">
-          <img src={down_arrow} alt="" />
+        <div className="flex flex-col justify-center items-center space-y-3 lg:mt-10">
+          <img src={down_arrow} alt="" className=""/>
           <h1 className="text-2xl font-bold">WELCOME TO</h1>
           <div className="flex items-center space-x-2">
-            <h1 className="text-9xl font-bold">MBBS</h1>
-            <h1 className="text-9xl font-bold text-[#0082FA]">WALA</h1>
+            <h1 className="lg:text-9xl text-5xl font-bold">MBBS</h1>
+            <h1 className="lg:text-9xl text-5xl font-bold text-[#0082FA]">WALA</h1>
           </div>
 
-          <h1 className="text-5xl font-bold">Admission and Counselling</h1>
+          <h1 className="text-8xl font-bold">Admission and Counselling</h1>
           <h1 className="text-4xl font-semibold">Since 2005</h1>
           <img src={up_arrow} alt="" />
-          <h1 className="italic text-center text-3xl kalamFont">
+          <h1 className="italic text-center text-3xl kalamFont font-bold">
             "Your Trusted Partner on the Path to Becoming a Doctor"
           </h1>
           <p className="KiteOneFont max-w-6xl text-center">
