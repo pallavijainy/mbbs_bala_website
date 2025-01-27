@@ -5,6 +5,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+    padding: 20px;
+}
+
 .kalamFont{
     font-family: "Kalam", serif;
 }
