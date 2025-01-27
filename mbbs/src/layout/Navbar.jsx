@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const Navbar = () => {
   const navOptions = ["Home", "Courses", "Placements", "Institution", "Institute Life", "Blog"];
@@ -19,14 +20,14 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Navbar */}
-      <div className="flex md:hidden justify-between items-center p-4">
-        <h1 className="text-lg font-bold">Navbar</h1>
-        <button
-          className="text-black hover:text-[#EEA81F] focus:outline-none"
+      <div className="flex md:hidden justify-end items-center p-4">
+        {/* <h1 className="text-lg font-bold">Navbar</h1> */}
+        <div
+          className="text-white bg-[#0082FA] p-2 rounded-full"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
-          ☰
-        </button>
+        <GiHamburgerMenu/>
+        </div>
       </div>
       {isMenuOpen && (
         <div className="flex flex-col items-center gap-3 bg-white shadow-md p-4 rounded-lg">
