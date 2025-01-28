@@ -76,7 +76,13 @@ const GetInTouch = () => {
                                 href="tel:+916266636705"
                                 className="text-gray-700 hover:underline"
                             >
-                                +91-6266636705
+                                +91-7880119983
+                            </a>
+                            <a
+                                href="tel:+916266636705"
+                                className="text-gray-700 hover:underline"
+                            >
+                                +91-9713315529
                             </a>
                         </div>
 

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import faq from "../assets/faq.jpg"
 
 const FAQ = () => {
     const [activeIndex, setActiveIndex] = useState(null);
@@ -24,7 +25,7 @@ const FAQ = () => {
                 <div className="flex flex-col md:flex-row gap-6">
                     <div className="flex-1">
                         <img
-                            src="https://via.placeholder.com/300"
+                            src={faq}
                             alt="FAQ illustration"
                             className="rounded-lg"
                         />

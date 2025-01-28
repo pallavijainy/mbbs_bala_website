@@ -119,9 +119,13 @@ const MedicalDegrees = () => {
                                         {program.teacher}
                                     </span>
                                 </div>
-                                <button className="bg-red-500 text-white text-sm px-4 py-2 rounded-md hover:bg-red-600">
-                                    Contact Us
-                                </button>
+                                <button
+  className="bg-red-500 text-white text-sm px-4 py-2 rounded-md hover:bg-red-600 cursor-pointer"
+  onClick={() => window.location.href = 'tel:+917880119983'}
+>
+  Contact Us
+</button>
+
                             </div>
                         </div>
 

@@ -7,7 +7,11 @@ const Footer = () => {
                 <div className="  space-y-3 text-center pb-5">
                     <h2 className="text-lg md:text-xl lg:text-3xl text-blue-500 font-semibold">Get more information</h2>
                     <p className="text-2xl md:text-3xl lg:text-4xl font-medium">About MBBS Admission in Top Medical College</p>
-                    <button className="bg-blue-500 text-white px-6 py-2 rounded-lg shadow-md hover:bg-blue-600 transition duration-300">Consult now</button>
+                    <a href="tel:+917880119983">
+  <button className="px-6 py-3 bg-blue-600 text-white font-medium rounded-lg shadow-md hover:bg-blue-700 transition cursor-pointer">
+    Consult now
+  </button>
+</a>
                 </div>
 
                 <div className="flex md:flex-row flex-col md:justify-between md:items-center gap-5 border-t pb-5 border-[#0005] ">
@@ -32,7 +36,10 @@ const Footer = () => {
 
                     <div className="flex  flex-col items-end gap-5 justify-end">
                         <div className="flex items-center gap-5">
-                            <p className=" py-1 px-4 border md:text-lg sm:text-base text-sm font-medium rounded-full">+91-6266636705</p>
+                        <div className="py-1 px-4 border md:text-lg sm:text-base text-sm font-medium rounded-full">
+  <a href="tel:+917880119983" className="hover:underline">+91-7880119983</a>,  
+  <a href="tel:+919713315529" className="hover:underline">+91-9713315529</a>
+</div>
                             <p className=" py-1 px-4 border md:text-lg sm:text-base text-sm font-medium rounded-full">info@mbbswala.in</p>
                         </div>
                         <p className="py-1 px-4 border md:text-lg sm:text-base text-sm font-medium rounded-full">Sf 17, Aakriti Business Centre, Salaiya, Bhopal, (MP), 462026</p>
@@ -47,7 +54,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="border-t py-4 border-[#0005] flex items-center justify-center">
-                    <p className="">© MBBS Wala 2024 All rights reserved.</p>
+                    <p className="">© MBBS Wala 2025 All rights reserved.</p>
                 </div>
             </div>
         </footer>
