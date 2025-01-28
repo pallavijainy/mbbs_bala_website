@@ -84,7 +84,7 @@ const TestimonialCard = () => {
     ]
   };
   return (
-    <div>
+    <div className="overflow-hidden">
       <Slider {...settings}>
         {reviews?.map((el) => (
           <div className="max-w-md space-y-5 mt-10">

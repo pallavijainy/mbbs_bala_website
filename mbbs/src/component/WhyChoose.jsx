@@ -39,7 +39,7 @@ const WhyChoose = () => {
           </div>
           <div className="flex lg:flex-row flex-col justify-center gap-5">
             
-            <img src={card1} alt="10K Admissions" className="lg:w-40 w-full h-60 lg:full object-cover" />
+            <img src={card1} alt="10K Admissions" className="lg:w-40 w-full h-60 lg:full object-cover rounded-lg" />
 
             <div className="flex justify-center lg:justify-start items-center">
               <div className="space-y-6">
@@ -60,7 +60,7 @@ const WhyChoose = () => {
               </div>
 
             </div>
-              <img src={card2} alt="100% Satisfaction" className="lg:w-40 w-full h-60 lg:full object-cover" />
+              <img src={card2} alt="100% Satisfaction" className="lg:w-40 w-full h-60 lg:full object-cover rounded-lg" />
           </div>
         </div>
 

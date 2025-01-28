@@ -55,7 +55,7 @@ export default function AdmissionAssistance() {
   return (
     <div className="max-w-4xl mx-auto ">
       {colleges.map((college) => (
-        <div key={college.id} className="flex items-start space-x-4 bg-white rounded-lg overflow-hidden pl-4 ">
+        <div key={college.id} className="flex items-start space-x-4 bg-white rounded-lg overflow-hidden lg:pl-4 ">
           <div className="flex flex-col items-center justify-center">
             <div className="flex items-center justify-center w-10 h-10 bg-gray-200 rounded-full">
               <span className="text-xl">{college.icon}</span>

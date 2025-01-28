@@ -6,7 +6,8 @@ import CircularMotion from "./CircularMotion";
 
 const NewCollege = () => {
   return (
-    <div className="flex flex-col items-center text-center py-16 px-6 bg-white">
+    <>
+      <div className="flex flex-col items-center text-center py-16 lg:px-6 bg-white">
       <h1 className="text-4xl md:text-7xl font-bold text-gray-900 max-w-5xl">
         Let’s talk about new <span className="text-red-600">Knowledge</span> and <span className="text-red-600">Colleges</span>.
       </h1>
@@ -20,16 +21,11 @@ const NewCollege = () => {
           Watch Video
         </button>
       </div>
-      <CircularMotion/>
-      {/* <div className="mt-12 flex flex-wrap justify-center gap-6">
-        <img src={doctor_1} alt="Doctor 1" className="w-32 h-32 md:w-60 md:h-90 rounded-full shadow-lg object-cover" />
-        <img src={doctor_2} alt="Doctor 2" className="w-32 h-32 md:w-60 md:h-90 rounded-full shadow-lg object-cover"/>
-        <img src={doctor_3} alt="Doctor 3" className="w-32 h-32 md:w-60 md:h-90 rounded-full shadow-lg object-cover" />
-        <img src={doctor_4} alt="Doctor 4" className="w-32 h-32 md:w-60 md:h-90 rounded-full shadow-lg object-cover" />
-        <img src={doctor_5} alt="Doctor 4" className="w-32 h-32 md:w-60 md:h-90 rounded-full shadow-lg object-cover" />
-        <img src={doctor_6} alt="Doctor 4" className="w-32 h-32 md:w-60 md:h-90 rounded-full shadow-lg object-cover" />
-      </div> */}
+    
     </div>
+      <CircularMotion/>
+    </>
+  
   );
 };
 

@@ -18,7 +18,7 @@ const images = [
 
 const CircularMotion = () => {
   return (
-    <div className="relative w-full h-96 flex justify-center items-center overflow-hidden">
+    <div className="relative w-full h-52 lg:h-96 flex justify-center items-center overflow-hidden">
       <motion.div
         className="absolute flex space-x-10" // Spacing between images
         initial={{ x: "0%" }}
@@ -35,7 +35,7 @@ const CircularMotion = () => {
             <img
               src={image.src}
               alt={image.alt}
-              className="w-32 h-32 md:w-40 md:h-40 rounded-full shadow-lg object-cover"
+              className="w-32 h-44 md:w-40 md:h-60 rounded-full shadow-lg object-cover"
             />
           </div>
         ))}
@@ -46,7 +46,7 @@ const CircularMotion = () => {
             <img
               src={image.src}
               alt={`${image.alt}-duplicate`}
-              className="w-32 h-32 md:w-40 md:h-40 rounded-full shadow-lg object-cover"
+              className="w-32 h-44 md:w-40 md:h-60 rounded-full shadow-lg object-cover"
             />
           </div>
         ))}

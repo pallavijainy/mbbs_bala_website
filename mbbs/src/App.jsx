@@ -20,22 +20,22 @@ import TestimonialCard from './component/TestinomialCard'
 const App = () => {
   return (
     <>
-    <HeroSection/>
-    <Partners/>
+      <HeroSection />
+      <Partners />
       <ConnectWithCommunity />
       <ProvenTrackRecord />
-    <WhyChoose/>
-    <AdmissionSection/>
-    <WorkProcess/>
-    <NewCollege/>
-    <TestimonialSection/>
-    <TestimonialCard/>
-      <Gallery/>
-      <MedicalDegrees/>
-      <GetInTouch/>
-      <ContactUs/>
-      <FAQ/>
-      <Footer/>
+      <WhyChoose />
+      <AdmissionSection />
+      <WorkProcess />
+      <NewCollege />
+      <TestimonialSection />
+      <TestimonialCard />
+      <Gallery />
+      <MedicalDegrees />
+      <GetInTouch />
+      <ContactUs />
+      <FAQ />
+      <Footer />
     </>
   )
 }

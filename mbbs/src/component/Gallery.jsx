@@ -32,10 +32,10 @@ const Gallery = () => {
               <img src={g4} alt="" />
             </div>
           </div>
-          <div className=" w-full md:h-60 h-78 lg:h-full rounded-2xl">
+          <div className=" hidden md:block w-full md:h-60 h-78 lg:h-full rounded-2xl">
             <img src={g6} alt="" />
           </div>
-          <div className=" grid gap-5 grid-cols-1">
+          <div className=" hidden lg:grid gap-5 grid-cols-1">
             <div className="w-full h-44  rounded-2xl">
               <img src={g7} alt="" />
             </div>
@@ -43,10 +43,10 @@ const Gallery = () => {
               <img src={g8} alt="" />
             </div>
           </div>
-          <div className="md:h-60 h-44 md:col-span-2  shadow-md rounded-2xl">
+          <div className=" hidden md:h-60 h-44 md:col-span-2  shadow-md rounded-2xl">
             <img src={g5} alt="" />
           </div>
-          <div className="md:h-60 h-44 md:col-span-2  shadow-md rounded-2xl">
+          <div className="hidden md:h-60 h-44 md:col-span-2  shadow-md rounded-2xl">
             <img src={g9} alt="" />
           </div>
         </div>
