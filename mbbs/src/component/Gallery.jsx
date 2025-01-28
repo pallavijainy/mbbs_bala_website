@@ -19,20 +19,20 @@ const Gallery = () => {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           <div className=" col-span-2 grid gap-5 sm:grid-cols-2 grid-cols-1">
-            <div className="w-full h-78  rounded-2xl">
-              <img src={g2} alt="" className="object-cover"/>
+            <div className="w-full  rounded-2xl">
+              <img src={g2} alt="" className="w-full h-full object-cover"/>
             </div>
-            <div className="w-full h-78  rounded-2xl">
-              <img src={g1} alt="" />
+            <div className="w-full  rounded-2xl">
+              <img src={g1} alt=""  className="w-full h-full object-cover"/>
             </div>
-            <div className="w-full h-78 rounded-2xl">
-              <img src={g3} alt="" className="h-full object-fill"/>
+            <div className="w-full  rounded-2xl">
+              <img src={g3} alt="" className="w-full h-full object-cover"/>
             </div>
-            <div className="w-full h-78  rounded-2xl">
-              <img src={g4} alt="" />
+            <div className="w-full  rounded-2xl">
+              <img src={g4} alt="" className="w-full h-full object-cover" />
             </div>
           </div>
-          <div className=" hidden md:block w-full md:h-60 h-78 lg:h-full rounded-2xl">
+          <div className=" hidden md:block w-full md:h-60 lg:h-full rounded-2xl">
             <img src={g6} alt="" />
           </div>
           <div className=" hidden lg:grid gap-5 grid-cols-1">

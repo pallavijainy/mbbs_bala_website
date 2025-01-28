@@ -12,7 +12,7 @@ const Navbar = () => {
         {navOptions?.map((el, index) => (
           <h1
             key={index}
-            className="text-black hover:text-white hover:bg-[#EEA81F] font-semibold text-lg cursor-pointer p-3 rounded-3xl transition-all jostFont"
+            className="text-black hover:text-white hover:bg-[#EEA81F] font-semibold text-lg cursor-pointer px-5 py-2 rounded-3xl transition-all jostFont"
           >
             {el}
           </h1>

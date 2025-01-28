@@ -49,6 +49,22 @@ const colleges = [
     image: college_2,
     icon: "👤",
   },
+  {
+    id: 7,
+    type: "Government Medical",
+    description:
+      "Secure your seat in top government medical colleges with expert guidance on eligibility, entrance exams, and documentation.",
+    image: college_2,
+    icon: "🔍",
+  },
+  {
+    id: 8,
+    type: "Private Medical College",
+    description:
+      "Explore the best private medical colleges with personalized assistance in selecting colleges that fit your budget and preferences.",
+    image: college_2,
+    icon: "👤",
+  },
 ];
 
 export default function AdmissionAssistance() {
@@ -60,10 +76,9 @@ export default function AdmissionAssistance() {
             <div className="flex items-center justify-center w-10 h-10 bg-gray-200 rounded-full">
               <span className="text-xl">{college.icon}</span>
             </div>
-            <div className="w-0.5 h-[35vh] bg-slate-200"></div>
+            <div className="w-0.5 md:h-[35vh] min-h-[25vh] bg-slate-200"></div>
           </div>
 
-          {/* Content */}
           <div className="flex-1 space-y-3">
             <img src={college.image} alt={college.type} className="w-full h-40 object-cover rounded-lg" />
             <h2 className="mt-2 text-lg font-semibold">

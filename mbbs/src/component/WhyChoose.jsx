@@ -11,7 +11,7 @@ import ExpertConsultation from "./ExpertConsultation";
 
 const WhyChoose = () => {
   return (
-    <div className=" py-8 lg:py-20 bg-white">
+    <div className="py-8 lg:py-20 bg-white">
       <h1 className="text-4xl md:text-5xl text-center font-semibold mb-10">
         Why Choose
         <span className="font-bold"> MBBS</span>
@@ -20,7 +20,7 @@ const WhyChoose = () => {
 
       <div className="flex flex-col lg:flex-row max-w-6xl mx-auto lg:gap-10 px-4 lg:px-0">
         <div className="flex-shrink-0 flex justify-center lg:justify-start">
-          <img src={photo_2} alt="Doctor 1" className="lg:h-full lg:max-h-[420px] max-h-[200px] w-full object-contain rounded-lg" />
+          <img src={photo_2} alt="Doctor 1" className="lg:h-full lg:max-h-[500px] max-h-[200px] w-full object-contain rounded-lg" />
         </div>
 
         <div className="flex-1 space-y-6 text-center lg:text-left">
@@ -37,11 +37,20 @@ const WhyChoose = () => {
               <IoIosArrowRoundForward size={20} />
             </button>
           </div>
-          <div className="flex lg:flex-row flex-col justify-center gap-5">
-            
-            <img src={card1} alt="10K Admissions" className="lg:w-40 w-full h-60 lg:full object-cover rounded-lg" />
+          <div className="flex sm:hidden items-center gap-5 justify-center">
+            <div className="w-40 h-60 rounded-2xl overflow-hidden">
+              <img src={card1} alt="10K Admissions" className="w-full h-full object-fill" />
+            </div>
+            <div className="w-40 h-60 rounded-2xl overflow-hidden">
+              <img src={card2} alt="10K Admissions" className="w-full h-full object-fill" />
+            </div>
+          </div>
+          <div className="flex lg:flex-row flex-col items-center justify-center gap-5">
 
-            <div className="flex justify-center lg:justify-start items-center">
+            <div className="w-40 h-60 hidden sm:block rounded-2xl overflow-hidden">
+              <img src={card1} alt="10K Admissions" className="w-full h-full object-fill" />
+            </div>
+            <div className="flex justify-center  lg:justify-start items-center">
               <div className="space-y-6">
                 <div className="flex items-center gap-4 border border-gray-200 p-4 rounded-full shadow-sm w-72 lg:w-full">
                   <img src={frame1} alt="Student 1" className="w-12 h-12 rounded-full" />
@@ -60,17 +69,25 @@ const WhyChoose = () => {
               </div>
 
             </div>
-              <img src={card2} alt="100% Satisfaction" className="lg:w-40 w-full h-60 lg:full object-cover rounded-lg" />
+            <div className="w-40 h-60 hidden sm:block rounded-2xl overflow-hidden">
+              <img src={card2} alt="10K Admissions" className="w-full h-full object-fill" />
+            </div>
           </div>
         </div>
 
-        <div className="flex flex-col space-y-6 mt-2">
-          <img src={photo_3} alt="Doctor 2" className="rounded-lg object-cover h-[200px]" />
-          <img src={photo_1} alt="Doctor 3" className="rounded-lg object-cover h-[200px]" />
+        <div className="flex flex-col space-y-6 mt-5">
+          <div className="w-full h-56 rounded-2xl overflow-auto">
+            <img src={photo_3} alt="Doctor 2" className=" w-full h-full object-cover" />
+          </div>
+          <div className="w-full h-56 rounded-2xl overflow-auto">
+            <img src={photo_1} alt="Doctor 2" className=" w-full h-full object-cover" />
+          </div>
         </div>
       </div>
 
-     <ExpertConsultation/>
+      <div className="mt-10">
+        <ExpertConsultation />
+      </div>
     </div>
   );
 };

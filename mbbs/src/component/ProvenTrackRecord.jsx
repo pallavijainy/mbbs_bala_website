@@ -4,9 +4,9 @@ const ProvenTrackRecord = () => {
     return (
         <section className="bg-white py-12 px-5 md:px-8 lg:px-16">
             <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-center gap-8">
-                {/* Left Section */}
-                <div className="lg:w-[80%] flex flex-col md:flex-row items-center md:items-start md:justify-between gap-8">
-                    <div className="w-full md:w-1/2">
+              
+                <div className="lg:w-[80%] flex flex-col md:flex-row items-center gap-8">
+                    <div className="w-full md:w-1/2 flex flex-col justify-center">
                         <p className="text-sm text-blue-600 font-semibold mb-2">Milestones</p>
                         <h2 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl mb-4">
                             Our Proven Track <span className="text-red-600 font-bold">Record</span>
