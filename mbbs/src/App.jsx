@@ -11,22 +11,31 @@ import GetInTouch from './component/GetInTouch'
 import ContactUs from './component/ContactUs'
 import FAQ from './component/FAQ'
 import Footer from './component/Footer'
+import AdmissionSection from './component/AdmissionSection'
+import NewCollege from './component/NewCollege'
+import WorkProcess from './component/WorkProcess'
+import TestimonialSection from './component/TestimonialSection'
+import TestimonialCard from './component/TestinomialCard'
 
 const App = () => {
   return (
     <>
-    <HeroSection/>
-    <Partners/>
-    <WhyChoose/>
-      {/* <HeroSection /> */}
+      <HeroSection />
+      <Partners />
       <ConnectWithCommunity />
       <ProvenTrackRecord />
-      <Gallery/>
-      <MedicalDegrees/>
-      <GetInTouch/>
-      {/* <ContactUs/>
-      <FAQ/>
-      <Footer/> */}
+      <WhyChoose />
+      <AdmissionSection />
+      <WorkProcess />
+      <NewCollege />
+      <TestimonialSection />
+      <TestimonialCard />
+      <Gallery />
+      <MedicalDegrees />
+      <GetInTouch />
+      <ContactUs />
+      <FAQ />
+      <Footer />
     </>
   )
 }

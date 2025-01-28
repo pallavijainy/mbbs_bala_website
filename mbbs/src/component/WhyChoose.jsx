@@ -7,6 +7,7 @@ import photo_1 from "../assets/photo_1.png";
 import photo_2 from "../assets/photo_2.png";
 import photo_3 from "../assets/photo_3.png";
 import { IoIosArrowRoundForward } from "react-icons/io";
+import ExpertConsultation from "./ExpertConsultation";
 
 const WhyChoose = () => {
   return (
@@ -37,7 +38,8 @@ const WhyChoose = () => {
             </button>
           </div>
           <div className="flex lg:flex-row flex-col justify-center gap-5">
-            <img src={card1} alt="10K Admissions" className="lg:w-40 w-full h-60 lg:full" />
+            
+            <img src={card1} alt="10K Admissions" className="lg:w-40 w-full h-60 lg:full object-cover rounded-lg" />
 
             <div className="flex justify-center lg:justify-start items-center">
               <div className="space-y-6">
@@ -58,7 +60,7 @@ const WhyChoose = () => {
               </div>
 
             </div>
-              <img src={card2} alt="100% Satisfaction" className="lg:w-40 w-full h-60 lg:full" />
+              <img src={card2} alt="100% Satisfaction" className="lg:w-40 w-full h-60 lg:full object-cover rounded-lg" />
           </div>
         </div>
 
@@ -67,6 +69,8 @@ const WhyChoose = () => {
           <img src={photo_1} alt="Doctor 3" className="rounded-lg object-cover h-[200px]" />
         </div>
       </div>
+
+     <ExpertConsultation/>
     </div>
   );
 };
