@@ -12,9 +12,13 @@ const AdmissionSection = () => {
           <button className="px-6 py-3 bg-white border border-gray-300 text-gray-700 rounded-lg shadow-sm hover:bg-gray-200 transition">
             ← Back to top
           </button>
-          <button className="px-6 py-3 bg-blue-600 text-white font-medium rounded-lg shadow-md hover:bg-blue-700 transition">
-            Consult now
-          </button>
+          <button
+  className="px-6 py-3 bg-blue-600 text-white font-medium rounded-lg shadow-md hover:bg-blue-700 transition cursor-pointer"
+  onClick={() => window.location.href = 'tel:+917880119983'}
+>
+  Consult now
+</button>
+
         </div>
       </div>
       <div className="md:w-1/2 mt-8 md:mt-0 flex flex-col items-center ">

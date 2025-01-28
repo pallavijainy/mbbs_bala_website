@@ -1,4 +1,5 @@
 import React from "react";
+import image from "../assets/new_image.jpg"
 
 const ProvenTrackRecord = () => {
     return (
@@ -22,7 +23,7 @@ const ProvenTrackRecord = () => {
                     <div className="w-full md:w-1/2">
                         <div className="rounded-lg w-full h-64 md:h-96 lg:h-[550px] overflow-hidden shadow-md">
                             <img
-                                src="https://plus.unsplash.com/premium_photo-1689629870780-5d0e655383e6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                src={image}
                                 alt="Healthcare professionals"
                                 className="w-full h-full object-cover"
                             />
