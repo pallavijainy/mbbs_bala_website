@@ -1,6 +1,7 @@
 import React from "react";
 import ExpertImage from "../assets/ExpertImage.png"
 import expert_2 from "../assets/expert_2.png"
+import SlidingTextEffect from "./SlidingTextEffect";
 
 
 const ExpertConsultation = () => {
@@ -8,8 +9,9 @@ const ExpertConsultation = () => {
     <div className="max-w-7xl mx-auto p-6 grid md:grid-cols-3 gap-8 items-center ">
       <div className="space-y-14">
         <h1 className="text-3xl md:text-6xl font-semibold">
-          Let’s Talk With <span className="text-red-600 font-bold">Expert!</span>
+          Let’s Talk With <span><SlidingTextEffect text={"Expert !"}/></span>
         </h1>
+        
         <div className="mt-6">
           <img
             src={ExpertImage} 
